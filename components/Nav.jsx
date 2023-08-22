@@ -27,7 +27,7 @@ const Nav = () => {
           alt='logo'
           width={30}
           height={30}
-          className='object-contain'
+          className='object-contain max-sm:hidden'
         />
         <Image
           src='/assets/images/logo.png'
@@ -114,7 +114,7 @@ const Nav = () => {
                     setToggleDropdown(false);
                     signOut();
                   }}
-                  className='mt-5 w-full black_btn'
+                  className='mt-2 w-full black_btn'
                 >
                   Sign Out
                 </button>
